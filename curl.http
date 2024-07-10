@@ -3,6 +3,3 @@ GET http://localhost:9098/getStudentDetailsForSchool/abcschool
 
 ###
 GET http://localhost:8098/getSchoolDetails/abcschool
-
-###
-GET http://localhost:8098/spring-consul-client-student-service/getStudentDetailsForSchool/{schoolname}

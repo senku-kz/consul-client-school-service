@@ -1,0 +1,1 @@
+# consul-client-school-service

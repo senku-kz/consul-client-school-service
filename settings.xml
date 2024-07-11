@@ -10,26 +10,4 @@
         </mirror>
     </mirrors>
 
-    <profiles>
-        <profile>
-            <id>allow-insecure-repos</id>
-            <repositories>
-                <repository>
-                    <id>nexus</id>
-                    <url>http://nexus.local:8081/repository/maven-central/</url>
-                    <releases>
-                        <enabled>true</enabled>
-                    </releases>
-                    <snapshots>
-                        <enabled>true</enabled>
-                    </snapshots>
-                </repository>
-            </repositories>
-        </profile>
-    </profiles>
-
-    <activeProfiles>
-        <activeProfile>allow-insecure-repos</activeProfile>
-    </activeProfiles>
-
 </settings>
